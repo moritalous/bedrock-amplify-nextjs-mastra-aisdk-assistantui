@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "sandbox": "npx ampx sandbox"
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^2.2.8",
@@ -31,7 +32,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "remark-gfm": "^4.0.1",
-    "tailwind-merge": "^3.2.0"
+    "tailwind-merge": "^3.2.0",
+    "turndown": "^7.2.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.16.0",

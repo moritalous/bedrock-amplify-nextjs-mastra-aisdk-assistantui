@@ -20,3 +20,6 @@ export async function AuthFetchAuthSessionServer() {
     console.error(error);
   }
 }
+
+export const awsRegion = outputs.auth.aws_region;
+export const inferenceProfileArn = outputs.custom.inferenceProfileArn;
